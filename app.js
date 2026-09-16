@@ -9,3 +9,15 @@ boton.addEventListener('click', () => {
     contador++;
     texto.textContent = `Clics: ${contador}`;
 });
+
+const botonModo = document.getElementById('modonoche');
+
+¡botonModo.addEventListener('click', () => {
+  document.body.classList.toggle('tema-claro');
+
+  if (document.body.classList.contains('tema-claro')) {
+    botonModo.textContent = 'Modo oscuro';
+  } else {
+    botonModo.textContent = 'Modo claro';
+  }
+});

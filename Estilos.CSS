@@ -21,3 +21,31 @@ button{
 button:hover {
   background-color: #2980b9; 
 }
+
+body {
+  background-color: #121212;
+  color: #f1f1f1;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#menu {
+  background-color: #1a1a1a;
+  transition: background-color 0.3s ease;
+}
+
+body.tema-claro {
+  background-color: #f5f5f5;
+  color: #222222;
+}
+
+body.tema-claro #menu {
+  background-color: #e0e0e0;
+}
+
+body.tema-claro .enlace-menu {
+  color: #222222;
+}
+
+body.tema-claro .enlace-menu:hover {
+  background-color: #cccccc;
+}
